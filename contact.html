@@ -4,39 +4,39 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>contact</title>
+    <link rel="stylesheet" href="style.css">
+    <title>Contact</title>
 </head>
 <body>
     <header>
         <h1>Contact Us</h1>
     </header>
     <nav>
-        <ul>
+        <ul id="list">
             <li><a href="index.html">Blog</a></li>
             <li><a href="about.html">About</a></li>
             <li><a href="contact.html">Contact</a></li>
         </ul>
     </nav>
-        <br>
         <form>
             <label>Name:
                 <input type="text">
-            </label> <br> <br>
-            <label>Email:
+            </label>
+            <p><label>Email:
                 <input type="text">
-            </label> <br> <br>
-            <label>Reason for contact:
-                <input list="options" style="width: 200px;">
+            </label> </p>
+            <p><label>Reason for contact:
+                <input list="options" id="drop">
                 <datalist id="options">
                     <option value="saying hi"></option>
                     <option value="looking for a contractor"></option>
                     <option value="interested in an interview"></option>
                 </datalist>
             </label>
-            <br> <br>
-            <label>Comments:
-                <input type="text" style="height: 100px; width: 300px;">
-            </label> <br> <br>
+            </p>
+            <p><label>Comments:
+                <input type="text" id="box">
+            </label> </p>
             <button>Submit</button>
         </form>
 </body>
