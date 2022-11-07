@@ -43,6 +43,57 @@ p {
     padding: 10px;
 }
 
-#list {
+#lister {
+    font-size: larger;
     list-style-type: none;
+    display: flex;
+    height: 75px;
+    width:max-content;
+    align-items: center;
+}
+
+li:nth-of-type(1) {
+    margin-left: 175px;
+    margin-right: 175px;
+}
+
+li:nth-of-type(2) {
+    margin-left: 175px;
+    margin-right: 175px;
+}
+
+li:nth-of-type(3) {
+    margin-left: 175px;
+    margin-right: 175px;
+}
+
+li:nth-of-type(4) {
+    margin-left: 175px;
+    margin-right: 175px;
+}
+.stick {
+    background: rgb(255, 255, 255);
+    list-style-type: none;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+}
+
+.floater {
+    float: right;
+    margin-right: 10%;
+}
+
+section {
+    display: flex;
+}
+
+article:nth-of-type(1){
+    flex: 1;
+    margin-right: 10px;
+}
+
+article:nth-of-type(2){
+    flex: 1;
+    margin-left: 10px;
 }
