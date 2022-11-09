@@ -110,4 +110,8 @@ article:nth-of-type(2){
     .stick {
         height: fit-content;
     }
+    img {
+        width: 100%;
+        align-self: center;
+    }
 }
