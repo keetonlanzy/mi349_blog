@@ -97,3 +97,17 @@ article:nth-of-type(2){
     flex: 1;
     margin-left: 10px;
 }
+
+@media (max-width: 400px) {
+    section {
+        display: flex;
+        flex-direction: column;
+    }
+    #lister {
+        display: flex;
+        flex-direction: column;
+    }
+    .stick {
+        height: fit-content;
+    }
+}
